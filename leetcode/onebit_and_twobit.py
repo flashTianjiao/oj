@@ -4,10 +4,6 @@ Created on Mon Sep 16 22:25:25 2019
 
 @author: Administrator
 """
-
-
-    
-
 def isOneBit(bits):
     i = 0
     while i < len(bits) - 1:
@@ -19,8 +15,3 @@ def isOneBit(bits):
         return True
     else:
         return False
-
-
-while True:
-    bits = input()
-    print isOneBit(bits)
